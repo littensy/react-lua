@@ -17,6 +17,8 @@
 	],
 	"rules": {
 		"prettier/prettier": "warn",
-		"@typescript-eslint/no-explicit-any": "off"
+		"@typescript-eslint/no-explicit-any": "off",
+		"@typescript-eslint/triple-slash-reference": "off",
+		"roblox-ts/no-namespace-merging": "off"
 	}
 }
