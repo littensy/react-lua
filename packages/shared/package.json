@@ -1,20 +1,23 @@
 {
 	"name": "@rbxts/shared-internal",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"author": "jsdotlua",
 	"license": "MIT",
 	"main": "src/init.lua",
 	"types": "src/index.d.ts",
 	"files": [
-		"packages",
+		"src",
 		"default.project.json",
 		"!**/*.luaurc",
 		"!**/wally.toml"
 	],
-	"dependencies": {
-		"@rbxts/luau-polyfill-internal": "1.2.3-ts.0"
-	},
 	"publishConfig": {
 		"access": "public"
+	},
+	"devDependencies": {
+		"@rbxts/luau-polyfill-internal": "1.2.3-ts.0"
+	},
+	"peerDependencies": {
+		"@rbxts/luau-polyfill-internal": "1.2.3-ts.0"
 	}
 }
