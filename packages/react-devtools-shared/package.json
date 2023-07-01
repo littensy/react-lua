@@ -1,6 +1,6 @@
 {
 	"name": "@rbxts/react-devtools-shared-internal",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"author": "jsdotlua",
 	"license": "MIT",
 	"main": "src/init.lua",
