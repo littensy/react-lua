@@ -1,5 +1,5 @@
 {
-	"name": "@rbxts/react-internal",
+	"name": "@rbxts/react-is-internal",
 	"version": "0.1.0",
 	"author": "jsdotlua",
 	"license": "MIT",
@@ -9,11 +9,9 @@
 		"access": "public"
 	},
 	"devDependencies": {
-		"@rbxts/luau-polyfill-internal": "1.2.3-ts.0",
 		"@rbxts/shared-internal": "workspace:^"
 	},
 	"peerDependencies": {
-		"@rbxts/luau-polyfill-internal": "1.2.3-ts.0",
 		"@rbxts/shared-internal": "workspace:^"
 	}
 }

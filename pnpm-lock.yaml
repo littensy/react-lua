@@ -40,10 +40,106 @@ importers:
         version: 5.1.6
 
   packages/react:
-    dependencies:
+    devDependencies:
       '@rbxts/luau-polyfill-internal':
         specifier: 1.2.3-ts.0
         version: 1.2.3-ts.0
+      '@rbxts/shared-internal':
+        specifier: workspace:^
+        version: link:../shared
+
+  packages/react-debug-tools:
+    devDependencies:
+      '@rbxts/luau-polyfill-internal':
+        specifier: 1.2.3-ts.0
+        version: 1.2.3-ts.0
+      '@rbxts/react-reconciler-internal':
+        specifier: workspace:^
+        version: link:../react-reconciler
+      '@rbxts/shared-internal':
+        specifier: workspace:^
+        version: link:../shared
+
+  packages/react-devtools-shared:
+    devDependencies:
+      '@rbxts/luau-polyfill-internal':
+        specifier: 1.2.3-ts.0
+        version: 1.2.3-ts.0
+      '@rbxts/react-debug-tools-internal':
+        specifier: workspace:^
+        version: link:../react-debug-tools
+      '@rbxts/react-internal':
+        specifier: workspace:^
+        version: link:../react
+      '@rbxts/react-is-internal':
+        specifier: workspace:^
+        version: link:../react-is
+      '@rbxts/react-reconciler-internal':
+        specifier: workspace:^
+        version: link:../react-reconciler
+      '@rbxts/react-roblox-internal':
+        specifier: workspace:^
+        version: link:../react-roblox
+      '@rbxts/shared-internal':
+        specifier: workspace:^
+        version: link:../shared
+
+  packages/react-is:
+    devDependencies:
+      '@rbxts/shared-internal':
+        specifier: workspace:^
+        version: link:../shared
+
+  packages/react-reconciler:
+    devDependencies:
+      '@rbxts/luau-polyfill-internal':
+        specifier: 1.2.3-ts.0
+        version: 1.2.3-ts.0
+      '@rbxts/promise-forward':
+        specifier: ^1.0.4
+        version: 1.0.4
+      '@rbxts/react-internal':
+        specifier: workspace:^
+        version: link:../react
+      '@rbxts/scheduler-internal':
+        specifier: workspace:^
+        version: link:../scheduler
+      '@rbxts/shared-internal':
+        specifier: workspace:^
+        version: link:../shared
+
+  packages/react-roblox:
+    devDependencies:
+      '@rbxts/luau-polyfill-internal':
+        specifier: 1.2.3-ts.0
+        version: 1.2.3-ts.0
+      '@rbxts/react-internal':
+        specifier: workspace:^
+        version: link:../react
+      '@rbxts/react-reconciler-internal':
+        specifier: workspace:^
+        version: link:../react-reconciler
+      '@rbxts/scheduler-internal':
+        specifier: workspace:^
+        version: link:../scheduler
+      '@rbxts/shared-internal':
+        specifier: workspace:^
+        version: link:../shared
+
+  packages/roact-compat:
+    devDependencies:
+      '@rbxts/luau-polyfill-internal':
+        specifier: 1.2.3-ts.0
+        version: 1.2.3-ts.0
+      '@rbxts/react-internal':
+        specifier: workspace:^
+        version: link:../react
+      '@rbxts/react-roblox-internal':
+        specifier: workspace:^
+        version: link:../react-roblox
+      '@rbxts/shared-internal':
+        specifier: workspace:^
+        version: link:../shared
 
   packages/scheduler:
     devDependencies:
@@ -51,7 +147,7 @@ importers:
         specifier: 1.2.3-ts.0
         version: 1.2.3-ts.0
       '@rbxts/shared-internal':
-        specifier: ^0.1.1
+        specifier: workspace:^
         version: link:../shared
 
   packages/shared:
@@ -151,6 +247,11 @@ packages:
 
   /@rbxts/luau-polyfill-internal@1.2.3-ts.0:
     resolution: {integrity: sha512-LG1h4uf+MpMxu6RfOLowRe+NOs2SWXzCmYd49WvfR8ZKVUNHvT0BeVIL9rS9q//mTlz8BXDyl5EVIyjnKgsekA==}
+    dev: true
+
+  /@rbxts/promise-forward@1.0.4:
+    resolution: {integrity: sha512-otKFEJ5kKxow+m3/tp37WtS3GXz8X9jbaqCKJUvHW33zj+knByTFSwmZ0kBNJe8Oi/SarXaCvvNVYVe7JkbWWw==}
+    dev: true
 
   /@rbxts/types@1.0.702:
     resolution: {integrity: sha512-uXJ9vhyDsXCajbgOxXJYS3M9spd6YzxMBzvfLdNAQLjY0+SYm6x/4Ueul6I8FkfcWOpH3J4TJQOH4N9U1L50Qg==}

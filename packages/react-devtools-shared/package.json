@@ -1,0 +1,29 @@
+{
+	"name": "@rbxts/react-devtools-shared-internal",
+	"version": "0.1.0",
+	"author": "jsdotlua",
+	"license": "MIT",
+	"main": "src/init.lua",
+	"types": "src/index.d.ts",
+	"publishConfig": {
+		"access": "public"
+	},
+	"devDependencies": {
+		"@rbxts/luau-polyfill-internal": "1.2.3-ts.0",
+		"@rbxts/react-debug-tools-internal": "workspace:^",
+		"@rbxts/react-internal": "workspace:^",
+		"@rbxts/react-is-internal": "workspace:^",
+		"@rbxts/react-reconciler-internal": "workspace:^",
+		"@rbxts/react-roblox-internal": "workspace:^",
+		"@rbxts/shared-internal": "workspace:^"
+	},
+	"peerDependencies": {
+		"@rbxts/luau-polyfill-internal": "1.2.3-ts.0",
+		"@rbxts/react-debug-tools-internal": "workspace:^",
+		"@rbxts/react-internal": "workspace:^",
+		"@rbxts/react-is-internal": "workspace:^",
+		"@rbxts/react-reconciler-internal": "workspace:^",
+		"@rbxts/react-roblox-internal": "workspace:^",
+		"@rbxts/shared-internal": "workspace:^"
+	}
+}

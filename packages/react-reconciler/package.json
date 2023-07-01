@@ -1,5 +1,5 @@
 {
-	"name": "@rbxts/react-internal",
+	"name": "@rbxts/react-reconciler-internal",
 	"version": "0.1.0",
 	"author": "jsdotlua",
 	"license": "MIT",
@@ -10,10 +10,16 @@
 	},
 	"devDependencies": {
 		"@rbxts/luau-polyfill-internal": "1.2.3-ts.0",
+		"@rbxts/promise-forward": "^1.0.4",
+		"@rbxts/react-internal": "workspace:^",
+		"@rbxts/scheduler-internal": "workspace:^",
 		"@rbxts/shared-internal": "workspace:^"
 	},
 	"peerDependencies": {
 		"@rbxts/luau-polyfill-internal": "1.2.3-ts.0",
+		"@rbxts/promise-forward": "^1.0.4",
+		"@rbxts/react-internal": "workspace:^",
+		"@rbxts/scheduler-internal": "workspace:^",
 		"@rbxts/shared-internal": "workspace:^"
 	}
 }

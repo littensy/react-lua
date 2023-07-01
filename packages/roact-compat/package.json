@@ -1,5 +1,5 @@
 {
-	"name": "@rbxts/react-internal",
+	"name": "@rbxts/roact-compat-internal",
 	"version": "0.1.0",
 	"author": "jsdotlua",
 	"license": "MIT",
@@ -10,10 +10,14 @@
 	},
 	"devDependencies": {
 		"@rbxts/luau-polyfill-internal": "1.2.3-ts.0",
+		"@rbxts/react-internal": "workspace:^",
+		"@rbxts/react-roblox-internal": "workspace:^",
 		"@rbxts/shared-internal": "workspace:^"
 	},
 	"peerDependencies": {
 		"@rbxts/luau-polyfill-internal": "1.2.3-ts.0",
+		"@rbxts/react-internal": "workspace:^",
+		"@rbxts/react-roblox-internal": "workspace:^",
 		"@rbxts/shared-internal": "workspace:^"
 	}
 }
