@@ -45,6 +45,15 @@ importers:
         specifier: 1.2.3-ts.0
         version: 1.2.3-ts.0
 
+  packages/scheduler:
+    devDependencies:
+      '@rbxts/luau-polyfill-internal':
+        specifier: 1.2.3-ts.0
+        version: 1.2.3-ts.0
+      '@rbxts/shared-internal':
+        specifier: ^0.1.1
+        version: link:../shared
+
   packages/shared:
     devDependencies:
       '@rbxts/luau-polyfill-internal':
