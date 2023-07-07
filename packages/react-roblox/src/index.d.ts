@@ -1,4 +1,4 @@
-import Roact from "@rbxts/react-ts";
+import Roact from "@rbxts/roact";
 
 export interface RootOptions {
 	hydrate?: boolean;

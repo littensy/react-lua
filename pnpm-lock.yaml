@@ -126,9 +126,9 @@ importers:
         specifier: workspace:^
         version: link:../shared
     devDependencies:
-      '@rbxts/react-ts':
-        specifier: ^0.4.0
-        version: 0.4.0
+      '@rbxts/roact':
+        specifier: npm:@rbxts/react-ts@^0.4.0
+        version: /@rbxts/react-ts@0.4.0
 
   packages/roact-compat:
     dependencies:
