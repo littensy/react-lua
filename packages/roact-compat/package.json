@@ -11,7 +11,7 @@
 	"dependencies": {
 		"@rbxts/luau-polyfill-internal": "1.2.3-ts.0",
 		"@rbxts/react-internal": "workspace:^",
-		"@rbxts/react-roblox-internal": "workspace:^",
+		"@rbxts/react-roblox": "workspace:^",
 		"@rbxts/shared-internal": "workspace:^"
 	}
 }

@@ -14,7 +14,7 @@
 		"@rbxts/react-internal": "workspace:^",
 		"@rbxts/react-is-internal": "workspace:^",
 		"@rbxts/react-reconciler-internal": "workspace:^",
-		"@rbxts/react-roblox-internal": "workspace:^",
+		"@rbxts/react-roblox": "workspace:^",
 		"@rbxts/shared-internal": "workspace:^"
 	}
 }

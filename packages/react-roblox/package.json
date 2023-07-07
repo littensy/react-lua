@@ -1,6 +1,6 @@
 {
-	"name": "@rbxts/react-roblox-internal",
-	"version": "0.2.0",
+	"name": "@rbxts/react-roblox",
+	"version": "0.1.0",
 	"author": "jsdotlua",
 	"license": "MIT",
 	"main": "src/init.lua",
@@ -14,5 +14,8 @@
 		"@rbxts/react-reconciler-internal": "workspace:^",
 		"@rbxts/scheduler-internal": "workspace:^",
 		"@rbxts/shared-internal": "workspace:^"
+	},
+	"devDependencies": {
+		"@rbxts/react-ts": "^0.4.0"
 	}
 }
