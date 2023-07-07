@@ -8,16 +8,7 @@
 	"publishConfig": {
 		"access": "public"
 	},
-	"devDependencies": {
-		"@rbxts/luau-polyfill-internal": "1.2.3-ts.0",
-		"@rbxts/react-debug-tools-internal": "workspace:^",
-		"@rbxts/react-internal": "workspace:^",
-		"@rbxts/react-is-internal": "workspace:^",
-		"@rbxts/react-reconciler-internal": "workspace:^",
-		"@rbxts/react-roblox-internal": "workspace:^",
-		"@rbxts/shared-internal": "workspace:^"
-	},
-	"peerDependencies": {
+	"dependencies": {
 		"@rbxts/luau-polyfill-internal": "1.2.3-ts.0",
 		"@rbxts/react-debug-tools-internal": "workspace:^",
 		"@rbxts/react-internal": "workspace:^",

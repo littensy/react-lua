@@ -40,7 +40,7 @@ importers:
         version: 5.0.4
 
   packages/react:
-    devDependencies:
+    dependencies:
       '@rbxts/luau-polyfill-internal':
         specifier: 1.2.3-ts.0
         version: 1.2.3-ts.0
@@ -49,7 +49,7 @@ importers:
         version: link:../shared
 
   packages/react-debug-tools:
-    devDependencies:
+    dependencies:
       '@rbxts/luau-polyfill-internal':
         specifier: 1.2.3-ts.0
         version: 1.2.3-ts.0
@@ -61,7 +61,7 @@ importers:
         version: link:../shared
 
   packages/react-devtools-shared:
-    devDependencies:
+    dependencies:
       '@rbxts/luau-polyfill-internal':
         specifier: 1.2.3-ts.0
         version: 1.2.3-ts.0
@@ -85,13 +85,13 @@ importers:
         version: link:../shared
 
   packages/react-is:
-    devDependencies:
+    dependencies:
       '@rbxts/shared-internal':
         specifier: workspace:^
         version: link:../shared
 
   packages/react-reconciler:
-    devDependencies:
+    dependencies:
       '@rbxts/luau-polyfill-internal':
         specifier: 1.2.3-ts.0
         version: 1.2.3-ts.0
@@ -109,7 +109,7 @@ importers:
         version: link:../shared
 
   packages/react-roblox:
-    devDependencies:
+    dependencies:
       '@rbxts/luau-polyfill-internal':
         specifier: 1.2.3-ts.0
         version: 1.2.3-ts.0
@@ -127,7 +127,7 @@ importers:
         version: link:../shared
 
   packages/roact-compat:
-    devDependencies:
+    dependencies:
       '@rbxts/luau-polyfill-internal':
         specifier: 1.2.3-ts.0
         version: 1.2.3-ts.0
@@ -142,7 +142,7 @@ importers:
         version: link:../shared
 
   packages/scheduler:
-    devDependencies:
+    dependencies:
       '@rbxts/luau-polyfill-internal':
         specifier: 1.2.3-ts.0
         version: 1.2.3-ts.0
@@ -151,7 +151,7 @@ importers:
         version: link:../shared
 
   packages/shared:
-    devDependencies:
+    dependencies:
       '@rbxts/luau-polyfill-internal':
         specifier: 1.2.3-ts.0
         version: 1.2.3-ts.0
@@ -247,11 +247,11 @@ packages:
 
   /@rbxts/luau-polyfill-internal@1.2.3-ts.0:
     resolution: {integrity: sha512-LG1h4uf+MpMxu6RfOLowRe+NOs2SWXzCmYd49WvfR8ZKVUNHvT0BeVIL9rS9q//mTlz8BXDyl5EVIyjnKgsekA==}
-    dev: true
+    dev: false
 
   /@rbxts/promise-forward@1.0.4:
     resolution: {integrity: sha512-otKFEJ5kKxow+m3/tp37WtS3GXz8X9jbaqCKJUvHW33zj+knByTFSwmZ0kBNJe8Oi/SarXaCvvNVYVe7JkbWWw==}
-    dev: true
+    dev: false
 
   /@rbxts/types@1.0.702:
     resolution: {integrity: sha512-uXJ9vhyDsXCajbgOxXJYS3M9spd6YzxMBzvfLdNAQLjY0+SYm6x/4Ueul6I8FkfcWOpH3J4TJQOH4N9U1L50Qg==}

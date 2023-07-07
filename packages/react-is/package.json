@@ -8,10 +8,7 @@
 	"publishConfig": {
 		"access": "public"
 	},
-	"devDependencies": {
-		"@rbxts/shared-internal": "workspace:^"
-	},
-	"peerDependencies": {
+	"dependencies": {
 		"@rbxts/shared-internal": "workspace:^"
 	}
 }

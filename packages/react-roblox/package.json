@@ -8,14 +8,7 @@
 	"publishConfig": {
 		"access": "public"
 	},
-	"devDependencies": {
-		"@rbxts/luau-polyfill-internal": "1.2.3-ts.0",
-		"@rbxts/react-internal": "workspace:^",
-		"@rbxts/react-reconciler-internal": "workspace:^",
-		"@rbxts/scheduler-internal": "workspace:^",
-		"@rbxts/shared-internal": "workspace:^"
-	},
-	"peerDependencies": {
+	"dependencies": {
 		"@rbxts/luau-polyfill-internal": "1.2.3-ts.0",
 		"@rbxts/react-internal": "workspace:^",
 		"@rbxts/react-reconciler-internal": "workspace:^",

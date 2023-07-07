@@ -8,10 +8,7 @@
 	"publishConfig": {
 		"access": "public"
 	},
-	"devDependencies": {
-		"@rbxts/luau-polyfill-internal": "1.2.3-ts.0"
-	},
-	"peerDependencies": {
+	"dependencies": {
 		"@rbxts/luau-polyfill-internal": "1.2.3-ts.0"
 	}
 }
